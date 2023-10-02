@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.footer {
+  color: white; /* Set text color to white */
+  padding: 20px;
+  position: relative; /* Needed for the line */
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1px solid white; /* Add a white horizontal line */
+}
