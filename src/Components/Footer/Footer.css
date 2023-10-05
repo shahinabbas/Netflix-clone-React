@@ -1,16 +1,30 @@
-/* Footer.css */
-
-.footer {
-  color: white; /* Set text color to white */
-  padding: 20px;
-  position: relative; /* Needed for the line */
+.footerParentDiv {
+  width: 100vw;
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  color: #ffffff;
+  padding: 16px;
+}
+.footerParentDiv .content .heading {
+  font-size: 24px;
+  font-weight: bolder;
 }
 
-.footer::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  border-top: 1px solid white; /* Add a white horizontal line */
+.footerParentDiv .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
+
+.footerParentDiv .footer p {
+  margin: 0;
+}
+ul{ list-style-type: none;}
+

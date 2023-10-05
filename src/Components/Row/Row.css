@@ -8,6 +8,14 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
+@media (max-width: 768px) {
+  .poster {
+    max-height: 203px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+}
 .posters::-webkit-scrollbar {
   display: none;
 }
